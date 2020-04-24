@@ -1,0 +1,35 @@
+{
+    "name": "thomas672/tailwindcss-templates",
+    "type": "library",
+    "description": "TailwindCss templates for InfyOm Laravel Generator",
+    "keywords": [
+        "infyom",
+        "laravel",
+        "generator",
+        "tailwindcss",
+        "templates"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Kieffer",
+            "email": "kiefferien@live.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InfyOm\\TailwindCssTemplates\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\InfyOm\\TailwindCssTemplates\\TailwindCssTemplatesServiceProvider"
+            ]
+        }
+    }
+}
